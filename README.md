@@ -2,13 +2,22 @@
 
 Welcome to the official repository for **MDFIDNet**, a novel image denoising model leveraging **Multi-Domain Feature Integration** to achieve superior denoising performance. 
 
-## About MDFIDNet
-MDFIDNet introduces an advanced approach to image denoising by integrating features from multiple domains, including:
-- **Spatial domain** for detailed pixel-level processing.
-- **Gradient domain** for edge preservation and texture enhancement.
-- **Cosine domain** for frequency-based noise suppression.
+---
 
-This methodology ensures a balance between noise reduction and detail preservation, making it a powerful tool for a variety of real-world applications.
+## Abstract
+In the realm of computer vision, image denoising remains a formidable challenge with profound implications for fields like medical imaging, remote sensing, and photography. Despite notable advancements in deep learning, there are enduring challenges: current convolutional neural networks (CNNs) frequently struggle with training complexities due to their emphasis on increased network depth. At the same time, these networks often fail to adequately consider the crucial role of gradient information in the denoising process. Furthermore, there is a distinct gap in leveraging transform domain analysis in image denoising. 
+
+This study addresses these limitations with **MDFIDNet**, a novel triple-phase attentive fusion network tailored for image denoising. MDFIDNet integrates three independent feature extraction pipelines:
+- A **Frequency Domain Processing Pipeline (FDP)** enhanced by a multi-scale convolutional attention block (MSCAB).
+- A **Spatial Domain Processing Pipeline (SDP)** focusing on detail feature preservation.
+- A **Gradient Domain Processing Pipeline (GDP)** driven by multidirectional gradient information.
+
+Experimental validation demonstrates that MDFIDNet surpasses existing benchmarks, exhibiting robust performance across diverse datasets. Comprehensive ablation studies underscore the individual contributions of each network component, elucidating the novel advancements that underpin MDFIDNet’s superior denoising efficacy.  
+
+The source code and further details are available in the repository.  
+🔗 [https://github.com/debashis15/MDFIDNet](https://github.com/debashis15/MDFIDNet)  
+
+**Keywords**: Computer vision · Deep Learning · Image denoising · Gradient information · Real images · Experimentation · Training Complexity
 
 ---
 
@@ -43,4 +52,3 @@ For further queries, feedback, or collaborations, please contact **Debashis Das*
 ---
 
 Thank you for your interest in MDFIDNet!
-  
