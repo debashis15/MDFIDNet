@@ -1,4 +1,20 @@
-BSD400
-BSD68
-CBSD432
-CBSD68
+## Datasets Used
+
+MDFIDNet was trained and tested on a combination of synthetic grayscale, synthetic color, and real-world image datasets, ensuring comprehensive validation across diverse scenarios.
+
+### **Synthetic Grayscale Images**
+- **Training Dataset**: BSD400 (a subset of the Berkeley Segmentation Dataset).
+- **Testing Dataset**: BSD68 (a benchmark dataset of 68 grayscale images for denoising).
+
+### **Synthetic Color Images**
+- **Training Dataset**: CBSD432 (a color extension of BSD400 with 432 images).
+- **Testing Dataset**: BSD68 (68 color images derived from the grayscale BSD68 dataset).
+
+### **Real-World Noisy Images**
+- **Training Dataset**: SIDD (Smartphone Image Denoising Dataset) training set.
+- **Testing Datasets**:
+  - **SIDD Validation Set**: A subset of SIDD images used for validation.
+  - **PolyU**: A real noisy image dataset developed by the Hong Kong Polytechnic University.
+  - **NAM**: Noise-Aware Model dataset, containing various real noisy scenarios.
+
+These datasets collectively ensure robust performance testing under both synthetic and real-world noise conditions.
