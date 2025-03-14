@@ -42,6 +42,10 @@ If you require **results**, **metric values**, or additional details, feel free 
 ---
 
 ## Citation
+If you find this work helpful, please consider citing our paper:
+
+bibtex
+Copy
 @InProceedings{10.1007/978-3-031-78125-4_27,
   author="Das, Debashis and Maji, Suman Kumar",
   title="MDFIDNet: Multi-domain Feature Integration Denoising Network",
@@ -50,6 +54,7 @@ If you require **results**, **metric values**, or additional details, feel free 
   publisher="Springer Nature Switzerland",
   isbn="978-3-031-78125-4"
 }
+
 
 ---
 
